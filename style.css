@@ -1,0 +1,223 @@
+/* CSS Document */
+*{
+	padding: 0px;
+	margin: 0;
+}
+.container{
+	padding: 60px;
+
+}
+header{
+	
+	
+	margin: auto;
+	display: flex;
+	background-color: aqua;
+
+}
+header img{
+	width: 160px;
+}
+header nav{
+	
+  height: 100%;
+}
+header nav ul{
+	width: 650px;
+}
+header nav ul li{
+	width: 650px;
+	display: inline;
+	line-height: 50px;
+	  justify-content: flex-end;
+
+}
+.container-banner{
+	width: 100%;
+	background-image: url(http://via.placeholder.com/900x400);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.container-banner .Banner, .containers{
+	width: 980px;
+	height: 400px;
+	color: #000;
+	margin: auto;
+	text-align: center;
+	position: relative;
+}
+.container-banner .Banner h2{
+font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+	font-size: 2.4em;
+	font-weight: 500;
+	letter-spacing: 0.3em ;
+    text-transform: uppercase;
+		  text-align: center;
+}
+.container-banner .Banner p{
+font-family:Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	color: #676767;
+		letter-spacing: 0.1em ;
+
+}
+
+.container-banner .Banner span{
+
+	color: #000;
+	position: absolute;
+	bottom: 33px;
+	right: auto;
+	align-content: center;
+	
+}
+.about{
+	width: 980px;
+	
+}
+.about h2{
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+	font-size: 2.4em;
+	font-weight: 500;
+	letter-spacing: 0.3em ;
+    text-transform: uppercase;
+	text-align: center;
+
+}
+.about snap{
+	font-family:Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	color: #676767;
+	letter-spacing: 0.1em ;
+	text-align: center;
+}
+.about .deux-col{
+
+	text-align: justify;
+	-webkit-column-rule: 1px dotted #ddd;
+	-moz-column-rule: 1px dotted #ddd;
+	column-rule: 1px dotted #ddd;
+	-webkit-columns: 2 200px;
+	-moz-columns: 2 200px;
+	columns: 2 200px;
+	-webkit-column-gap: 4em;
+	-moz-column-gap: 4em;
+	column-gap: 4em;
+	text-align: justify;
+	margin-top: 80px;
+}
+
+.team{
+	
+}
+.team img{
+	width: 50%;
+	height: auto;
+	
+}
+.team article{
+	width: 50%;
+	background: #f7f7f7;
+	padding-left: 40px;
+    padding-right: 40px;
+    /*max-width: 400px; */
+    /*margin: 0 auto;	*/
+	
+}
+.team article h3{
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+	font-size: 2.4em;
+	font-weight: 500;
+	letter-spacing: 0.3em ;
+    text-transform: uppercase;
+	text-align: center;
+	
+}
+.team article span{
+	font-family:Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	color: #676767;
+	letter-spacing: 0.1em ;
+	text-align: center;
+	
+}
+.team article p{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+.team article ul{
+	color: aqua;
+	display: inline-block;
+	list-style: none;
+	margin: auto;
+	
+	
+}
+.team article ul li{
+	color: aqua;
+	
+}
+.team article ul li a{
+	color: aqua;
+	
+}
+
+.team  .left{
+	flex: 1 1 50%;
+}
+.team .right{
+		flex: 1 1 50%;
+}
+
+.service-container {
+width: 100%;
+}
+.service-container h2{
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+	font-size: 2.4em;
+	font-weight: 500;
+	letter-spacing: 0.3em ;
+    text-transform: uppercase;
+	text-align: center;
+}
+.service-container span{
+	font-family:Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	color: #676767;
+	letter-spacing: 0.1em ;
+	text-align: center;
+}
+.service-container .service {
+	width: 400px;
+	position: relative;
+	
+}
+.service-container .service img {
+	width: 400px;
+	
+	
+}
+.service-container .service h3 {
+	width: 400px;
+	
+}
+.service-container .service p {
+	width: 400px;
+	
+}
+
+
+
+
+
+
+
+
+
