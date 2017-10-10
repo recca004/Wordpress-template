@@ -7,6 +7,19 @@
 	padding: 60px;
 
 }
+p.subheader{
+	font-family:Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	color: #676767;
+	letter-spacing: 0.1em ;
+	text-align: center;
+		margin: auto;
+	flex: 1;
+}
+
+
+/* 				HEADER 				*/
 header{
 	
 	
@@ -20,18 +33,18 @@ header{
 	
 	
 	justify-content: center;
-	align-items: center;
+
 
 }
 header img{
-flex:1 0 40%;
+flex:1 ;
 	float: left;
 	margin-right: 10px;
 	padding:  8px 10px;
 }
 header nav{
 	flex:1;
-	float: right;
+
 	margin-right: 10px;
 	padding:  8px 10px;
 	
@@ -51,58 +64,14 @@ display: inline;
 header nav ul li a {
 	color: white;
 	padding: 0 10px;
-		list-style: none;
+	list-style: none;
 	text-decoration: none;
-
-	
-
-
-
-
 }
 
-/*	<header>
-		<a href="#" alt=""><img src="http://via.placeholder.com/150x50"> logo</a>
-		<nav>
-			<ul>
-				<li><a href="#" alt="">Home</a></li>
-				<li><a href="#" alt="">About</a></li>
-				<li><a href="#" alt="">Service</a></li>
-				<li><a href="#" alt="">Work</a></li>
-				<li><a href="#" alt="">Blog</a></li>
-				<li><a href="#" alt="">Features</a></li>
-				<li><a href="#" alt="">Contact</a></li>
-
-				
-			</ul>
-		</nav>
-	</header>*/
-
-/*
-header img{
-	width: 160px;
-	flex: 1;
-}
-header nav{
-	
-  	height: 100%;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-}
-header nav ul{
-	width: 650px;
-}
-header nav ul li{
-	width: 650px;
-	display: inline;
-	line-height: 50px;
-	flex: 1 0 40%;
-	
 
 
-}
-*/
+
+
 
 
 .container-banner{
@@ -112,21 +81,32 @@ header nav ul li{
 	background-size: cover;
 	
 }
+.container-banner .Banner{
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	height: 450px;
+	    flex-direction: column;
+
+		
+}
 .container-banner .Banner, .containers{
-	width: 980px;
+	/*width: 980px;
 	height: 400px;
 	color: #000;
 	margin: auto;
 	text-align: center;
-	position: relative;
+	position: relative;*/
 }
 .container-banner .Banner h2{
 font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
 	font-size: 2.4em;
 	font-weight: 500;
 	letter-spacing: 0.3em ;
-    text-transform: uppercase;
-		  text-align: center;
+		margin: 0 auto;
+    text-transform: uppercase;/*
+		  text-align: center;*/
+	
 }
 .container-banner .Banner p{
 font-family:Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
@@ -134,20 +114,42 @@ font-family:Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, ser
 	font-weight: 300;
 	color: #676767;
 		letter-spacing: 0.1em ;
+		margin: 0 auto;
+
 
 }
 
-.container-banner .Banner p:first-child{
+.container-banner .Banner .icon-scrol{
 
-	color: #000;
-	position: absolute;
-	bottom: 33px;
-	right: auto;
-	align-content: center;
+			color: #000;
+			letter-spacing: 0.3em ;
+			margin:  0 auto;
+			text-transform: uppercase;/*
+			text-align: center;*/
+			position:relative;
+			top:125px;
+
+
+
 	
+
+}
+
+
+
+
+
+.headingspace{
+	padding-top: 80px;
 }
 .about{
-	width: 980px;
+	width: 100%;
+	padding-bottom: 55px;
+	overflow: visible;
+	display: flex;
+	flex-direction: column;
+	
+	
 	
 }
 .about h2{
@@ -157,17 +159,12 @@ font-family:Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, ser
 	letter-spacing: 0.3em ;
     text-transform: uppercase;
 	text-align: center;
+	margin: auto;
+	flex: 1;
 
 }
-.about p:first-child{
-	font-family:Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
-	font-size: 1.2em;
-	font-weight: 300;
-	color: #676767;
-	letter-spacing: 0.1em ;
-	text-align: center;
-}
-.about .deux-col{
+
+.about p.deux-col{
 
 	text-align: justify;
 	-webkit-column-rule: 1px dotted #ddd;
@@ -181,25 +178,92 @@ font-family:Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, ser
 	column-gap: 4em;
 	text-align: justify;
 	margin-top: 80px;
+	width: 80%;
+	margin: auto;
+	flex: 2;
+	justify-content: center;
+	align-items: center;
+    padding: 80px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 .team{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+
 	
+	justify-content: space-between;
+	
+	
+	
+	width: 100%;
+    padding-bottom: 55px;
+    overflow: visible;
+
+}
+.team .teamimg{
+	width: 50%;
+	height: 100%;
 }
 .team img{
-	width: 50%;
+
 	height: auto;
+    flex-grow: 1;
+    flex-shrink: auto;
+    flex-basis: 50%;
+	    float: left;
+	order: 1;
+
+
+	
+	
+flex:1 45% ;
+
 	
 	
 }
+
+.team button{
+	align-self: flex-end;
+}
 .team article{
-	width: 50%;
+
+
 	background: #f7f7f7;
 	padding-left: 40px;
     padding-right: 40px;
-    /*max-width: 400px; */
-    /*margin: 0 auto;	*/
+	flex: 1 42%;
+	justify-content: center;
+
+
 	
+}
+.team article.right{
+order: 2;
+
+
+	
+}
+.team article.left{
+	flex: 1 42%;
+	order: 0;
+	
+}
+
+.team article{
+	flex-basis: 50%
 }
 .team article h3{
 	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
@@ -208,6 +272,8 @@ font-family:Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, ser
 	letter-spacing: 0.3em ;
     text-transform: uppercase;
 	text-align: center;
+	
+	margin-top: 80px;
 	
 }
 .team article > p:first-child{
@@ -248,6 +314,31 @@ font-family:Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, ser
 .team .right{
 		flex: 1 1 50%;
 }
+
+/*		<img src="http://via.placeholder.com/150x50">
+		<article class="right">
+				<h3>Tom et Jery</h3>
+				<p>web designer</p>
+				<p>
+					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempora invidunt ut labore.
+				</p>
+				<ul>
+					<li><a href="#" alt=""><button>Facebook</button></a></li>
+				</ul>
+		  </article>
+*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 .service-container {
 width: 100%;
