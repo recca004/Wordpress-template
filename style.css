@@ -12,15 +12,83 @@ header{
 	
 	margin: auto;
 	display: flex;
-	background-color: aqua;
+	background-color: #4d4d4d;;
+
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+	
+	
+	justify-content: center;
+	align-items: center;
 
 }
 header img{
+flex:1 0 40%;
+	float: left;
+	margin-right: 10px;
+	padding:  8px 10px;
+}
+header nav{
+	flex:1;
+	float: right;
+	margin-right: 10px;
+	padding:  8px 10px;
+	
+
+}
+header nav ul{
+	
+	float: right;
+
+}
+header nav ul li  {
+	margin: auto;
+display: inline;
+	
+		
+}
+header nav ul li a {
+	color: white;
+	padding: 0 10px;
+		list-style: none;
+	text-decoration: none;
+
+	
+
+
+
+
+}
+
+/*	<header>
+		<a href="#" alt=""><img src="http://via.placeholder.com/150x50"> logo</a>
+		<nav>
+			<ul>
+				<li><a href="#" alt="">Home</a></li>
+				<li><a href="#" alt="">About</a></li>
+				<li><a href="#" alt="">Service</a></li>
+				<li><a href="#" alt="">Work</a></li>
+				<li><a href="#" alt="">Blog</a></li>
+				<li><a href="#" alt="">Features</a></li>
+				<li><a href="#" alt="">Contact</a></li>
+
+				
+			</ul>
+		</nav>
+	</header>*/
+
+/*
+header img{
 	width: 160px;
+	flex: 1;
 }
 header nav{
 	
-  height: 100%;
+  	height: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 }
 header nav ul{
 	width: 650px;
@@ -29,9 +97,14 @@ header nav ul li{
 	width: 650px;
 	display: inline;
 	line-height: 50px;
-	  justify-content: flex-end;
+	flex: 1 0 40%;
+	
+
 
 }
+*/
+
+
 .container-banner{
 	width: 100%;
 	background-image: url(http://via.placeholder.com/900x400);
