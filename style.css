@@ -453,6 +453,7 @@ flex: 1;
 
 
 
+
  #work h2 {
 	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
 	font-size: 2.4em;
@@ -473,4 +474,69 @@ flex: 1;
 	padding-bottom: 55px;
 	
 }
+
+
+
+
+
+
+
+
+
+
+.contact {
+	padding: 80px;
+	display: flex;
+	justify-content:center;
+	height: 370px;
+	margin-top: 80px;
+	align-items: center;
+	background-image: url('http://via.placeholder.com/750x450');
+		background-size: cover;
+		background-repeat: no-repeat;
+	
+}
+
+
+
+
+
+
+
+.contact .left {
+    flex: 1 1 50%;
+    text-align: right;
+
+    align-self: center;
+    background-color: #ccc;
+    background: rgba(0, 0, 0, 0.55);
+    padding: 60px 20px;
+    color: #fff;
+	        border: 2px solid rgba(0, 0, 0, 0.18);
+	border-right: none;
+	
+	
+	
+	
+	
+
+}
+.contact .right{
+    flex: 1 1 40%;
+    text-align: left;
+    padding: 0 45px;
+    align-self: center;
+    background-color: #ccc;
+    background: rgba(0, 0, 0, 0.55);
+    padding: 60px 20px;
+    color: #fff;
+	        border: 2px solid rgba(0, 0, 0, 0.18);
+	border-left: none;
+	
+}
+address{
+	padding-top: 15px;
+	padding-bottom: 35px;
+}
+
 
