@@ -306,6 +306,8 @@ margin : 10px 0;
 flex : 1;
 border-radius : 5px;
 border : #ddd solid 1px;
+	    width: 100%;
+    height: 100%;
 }
 #work h2 {
 font-family : 'Tangerine', serif;
@@ -511,6 +513,12 @@ p.subheader {
   font-size: 1.5em;
 		padding: 24px;
 		width: 50%;
+}
+	
+	
+	#work div .work-row {
+
+    margin: auto;
 }
 	
 }
